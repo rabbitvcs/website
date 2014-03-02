@@ -1,0 +1,180 @@
+/*------------------------------------------------------------------------------
+ * Tweaks specific to our DokuWiki theme
+ *----------------------------------------------------------------------------*/
+
+#page-profilebar {
+    float: right;
+}
+
+#page-profilebar * {
+    float: left
+}
+
+#page-locationbar[class="wiki"] {
+    margin-top: 33px !important;
+}
+
+#bar__topleft div {
+    float: left;
+}
+
+#bar__topright div {
+    float: right;
+}
+
+div.secedit {
+    float: right;
+    display: none;
+}
+
+#bar__bottomleft div {
+    float: left;
+}
+
+#bar__bottomright div {
+    float: right;
+}
+
+#wiki__text {
+    width: 100%;
+}
+
+.editButtons {
+    margin-bottom: 0.5em;
+}
+
+.summary {
+    clear: both;
+}
+
+.license {
+    margin-top: 0.5em;
+    color: #aaa;
+}
+
+input.button {
+    border: none;
+    font-weight: bold;
+    padding: 0.3em 0.3em 0.3em 25px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    background-color: #F6F6F6;
+    border: 1px solid #999999;
+}
+
+input.button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+input.button[value="Admin"] {
+    background-image: url(images/actions/settings.png);
+    font-weight: normal;
+    background-color: transparent;
+    border: none;
+}
+
+input.button[value="Update Profile"] {
+    background-image: url(images/actions/profile.png);
+    font-weight: normal;
+    background-color: transparent;
+    border: none;
+}
+
+input.button[value="Login"] {
+    background-image: url(images/actions/login.png);
+    font-weight: normal;
+    background-color: transparent;
+    border: none;
+}
+
+input.button[value="Logout"] {
+    background-image: url(images/actions/logout.png);
+    font-weight: normal;
+    background-color: transparent;
+    border: none;
+}
+
+input.button[value="Edit this page"], input.button[value="Edit"], 
+    input.button[value="Create this page"], input.button[value="Edit draft"] {
+    background-image: url(images/actions/edit.png);
+    background-color: transparent;
+    border: none;
+}
+
+input.button[value="Show page"], input.button[value="Show pagesource"] {
+    background-image: url(images/actions/page.png);
+    background-color: transparent;
+    border: none;
+}
+
+input.button[value="Old revisions"] {
+    background-image: url(images/actions/history.png);
+    background-color: transparent;
+    border: none;
+}
+
+input.button[value="Recent changes"] {
+    background-color: transparent;
+    border: none;
+}
+
+input.button[value="Save"] {
+    background-image: url(images/actions/save.png);
+}
+
+input.button[value="Preview"] {
+    background-image: url(images/actions/preview.png);
+}
+
+input.button[value="Cancel"] {
+    background-image: url(images/actions/cancel.png);
+}
+
+input.button[value="Reset"] {
+    background-image: url(images/actions/clear.png);
+}
+
+input.button[value="Add"] {
+    background-image: url(images/actions/add.png);
+}
+
+input.button[value="Index"] {
+	background-image: url(images/actions/page.png);
+    background-color: transparent;
+    border: none;
+}
+
+/*------------------------------------------------------------------------------
+ * DokuWiki overrides
+ */
+div.dokuwiki div.breadcrumbs {
+	background-color: transparent !important;
+}
+
+/*------------------------------------------------------------------------------
+ * Code stuff
+ *----------------------------------------------------------------------------*/
+
+div.dokuwiki pre.code {
+	background-color: transparent !important;
+	white-space: pre-wrap !important;
+}
+
+div.dokuwiki pre {
+	font-size: 100% !important;
+	background-color: transparent !important;
+	border-top: none !important;
+	border-left: 3px solid #ccc !important;
+	border-bottom: none !important;
+	border-right: none !important;
+	margin-left: 2em;
+}
+
+/*------------------------------------------------------------------------------
+ * Tweaks specific to the DokuWiki discussion plugin
+ *----------------------------------------------------------------------------*/
+
+div.dokuwiki div.comment_wrapper {
+	margin: 0em !important;
+}

@@ -1,0 +1,36 @@
+/*
+Theme Name: RabbitVCS
+Theme URI: http://rabbitvcs.org
+Description: Official theme for the RabbitVCS website
+Version: 0.1
+Author: Bruce van der Kooij
+Author URI: http://parsed.nl
+Tags: open source
+*/
+
+/*------------------------------------------------------------------------------
+ * WordPress specific theming
+ *----------------------------------------------------------------------------*/
+
+#content {
+    float: left;
+    width: 70%;
+}
+
+.entry {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+}
+
+#sidebar ul, #rssfeeds {
+    margin-bottom: 1em;
+}
+
+#sidebar h2 {
+    margin-bottom: 0.3em;
+}

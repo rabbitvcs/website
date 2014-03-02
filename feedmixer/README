@@ -1,0 +1,22 @@
+Provides a mechanism to parse one or more feeds into a desired output template
+
+Usage:
+
+*   This will read in the given feed and output it to blog.html.  Because no template
+    file is given, it will use the default entry.tpl instead.
+
+    $ python feedmixer.py -o blog.html http://cobradragon.com/nautilussvn/feed
+    
+*   This will do the same as above, but use a custom template file.
+
+    $ python feedmixer.py -o blog.html -t custom.tpl http://cobradragon.com/nautilussvn/feed
+    
+*   This will read in two feeds and combine them into one, sorting by date in descending order
+
+    $ python feedmixer.py -o project.html \
+        http://code.google.com/feeds/p/rabbitvcs/updates/basic \
+        http://wiki.rabbitvcs.org/wiki/feed.php
+        
+*   This will limit the number of entries outputted
+
+    $ python feedmixer.py -o blog.html -l 2 http://cobradragon.com/nautilussvn/feed

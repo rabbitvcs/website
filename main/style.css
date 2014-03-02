@@ -1,0 +1,272 @@
+/*
+Theme Name: RabbitVCS
+Theme URI: http://rabbitvcs.org
+Description: Official theme for the RabbitVCS website
+Version: 0.1
+Author: Bruce van der Kooij
+Author URI: http://parsed.nl
+Tags: open source
+*/
+
+/*------------------------------------------------------------------------------
+ * Common styles (shared over all themes)
+ *----------------------------------------------------------------------------*/
+
+body {
+	font-family: Bitstream Vera Sans, Verdana, DejaVu Sans, sans-serif;
+	font-size: 10pt;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+p.more, p.more a[href] {
+	color: #aaa;
+	text-align: right;
+	font-size: 90%;
+}
+
+img {
+	border: 0;
+}
+
+a[href] {
+    color: #000;
+    text-decoration: none;
+}
+
+a[href]:hover {
+    text-decoration: underline;
+}
+
+#page {
+    width: 950px;
+	margin: auto;
+}
+
+#page-head {
+	margin-top: 0;
+	margin-bottom: 1em;
+	height: 100px;
+	border-bottom: 1px dotted #aaa;
+}
+
+#page-logo {
+	float: left;
+}
+
+#page-logo h1 a[href] {
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 293px;
+    height: 97px;
+    text-indent: -9999px;
+}
+
+#page-locationbar {
+	float: right; 
+	clear: right;
+	margin-top: 60px;
+}
+
+#page-locationbar ul {
+	list-style-type: none;
+	
+}
+
+#page-locationbar ul li {
+	float: left;
+	padding-left: 18px;
+	padding-right: 10px;
+	background-repeat: no-repeat;
+}
+
+li#link-home {
+	background-image: url(images/locationbar/home.png);
+}
+
+li#link-download {
+	background-image: url(images/locationbar/download.png);
+}
+
+li#link-about {
+	background-image: url(images/locationbar/about.png);
+}
+
+li#link-blog {
+	background-image: url(images/locationbar/blog.png);
+	padding-left: 23px !important;
+}
+
+li#link-contribute {
+	background-image: url(images/locationbar/contribute.png);
+}
+
+li#link-support {
+	background-image: url(images/locationbar/support.png);
+}
+
+li#link-wiki {
+	background-image: url(images/locationbar/wiki.png);
+}
+
+#page-banner {
+	border-bottom: 1px dotted #aaa;
+	height: 350px;
+	padding: 0em 1em 1em 1em;
+	margin-bottom: 1em;
+}
+
+#page-banner-screenshot {
+	float: left;
+}
+
+#page-banner-text {
+	margin-top: 1em;
+	width: 540px;
+	float: right;
+}
+
+#page-banner-title {
+	font-size: 200%;
+	margin-bottom: 0.5em;
+}
+
+#page-banner-body {
+	margin-left: 2em;
+}
+
+#page-banner-body .description {
+	font-size: 120%;
+}
+
+#page-banner-download img {
+	vertical-align: middle;
+	padding-right: 4px;
+}
+
+#page-content {
+    
+}
+
+#page-content h2 {
+	color: #204a87;
+	font-size: 1.3em;
+	font-weight: normal;
+	line-height: 1.5em;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+#page-content h2.title {
+	font-size: 2em;
+    margin-bottom: 0.3em;
+}
+
+#page-content a[href] {
+	color: #204a87;
+}
+
+#page-footer {
+	clear: both;
+	padding-top: 2em;
+}
+
+#page-footer-container {
+	border-top: 1px dotted #aaa;
+	padding: 1em;
+	color: #aaa;
+}
+
+#page-footer a[href] {
+	color: #204a87;
+}
+
+#page-footer .copyright {
+	float: left;
+	width: 90%;
+}
+
+#page-footer .image {
+	float: right;
+	position: relative;
+}
+
+/*------------------------------------------------------------------------------
+ * Frontpage specific
+ *----------------------------------------------------------------------------*/
+
+#page-content .column {
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#page-content .column1 {
+	width: 0%;
+}
+
+#page-content .column2 {
+	width: 70%;
+}
+
+#page-content .column3 {
+	width: 20%;
+}
+
+#page-content .column3 ul {
+	padding-left: 1.3em;
+}
+
+.column1 .feature {
+	padding: 0.5em;
+ }
+ 
+ .column1 img {
+	float: left;
+ }
+
+.column1 h3 {
+	font-size: 1.3em;
+	font-weight: normal;
+	margin-bottom: 0.2em;
+	padding-left: 1.5em;
+}
+
+.column1 p {
+	padding-left: 2em;
+	margin: 0;
+	font-style: italic;
+}
+
+.column2 ul {
+	padding-left: 1.3em;
+}
+
+.column2 ul li {
+    margin-top: 0.3em;
+}
+
+#homepage-beta-alert{
+    margin: 20px 0 0 0;
+}
+
+.alert{
+    border: 2px solid #b9843a;
+    background-color: #7cdeaa;
+    padding: 8px; 
+}
+
+#page-banner-screenshot .showcase-header{
+
+}
+
+#page-banner-screenshot .showcase-body{
+    font-weight: normal;
+}
