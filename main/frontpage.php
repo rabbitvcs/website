@@ -47,20 +47,11 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
                 </div>
                 
                 <div class="column column2">
-                    <h2>From the Blog</h2>
-<ul>
-<?php @include('frontpage-blog-entries.html'); ?>
-</ul>
-                    
+                    <h2>See the Blog</h2>                  
                     <p class="more"><a href="http://blog.rabbitvcs.org/">more...</a></p>
                     
-                    <h2>Project Activity</h2>
-
-<ul>
-<?php @include('frontpage-project-entries.html'); ?>                    
-</ul>
-
-                    <p class="more"><a href="/activity">more...</a></p>
+                    <h2>Join us on Github</h2>
+                    <p class="more"><a href="http://github.com/rabbitvcs/rabbitvcs">more...</a></p>
                 </div>
                 
                 <div class="column column3">
@@ -70,8 +61,8 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
                         <li><a href="http://wiki.rabbitvcs.org/wiki/support/known-issues">Known Issues</a></li>
                         <li><a href="http://wiki.rabbitvcs.org/wiki/about/roadmap">Roadmap</a></li>
                         <li><a href="http://wiki.rabbitvcs.org/wiki/support/faq">FAQ</a></li>
-                        <li><a href="http://code.google.com/p/rabbitvcs/source/browse/">Browse Source</a></li>
-                        <li><a href="http://code.google.com/p/rabbitvcs/issues/list">View Issues</a></li>
+                        <li><a href="http://github.com/rabbitvcs/rabbitvcs">Browse Source</a></li>
+                        <li><a href="http://github.com/rabbitvcs/rabbitvcs">View Issues</a></li>
                         <li><a href="http://www.assembla.com/plans?affiliate=RabbitVCS">Free Subversion and Git Hosting</a></li>
                     </ul>
                     
